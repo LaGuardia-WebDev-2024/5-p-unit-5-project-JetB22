@@ -41,9 +41,9 @@ body {
 }
 
 @keyframes Crab {
-  from {translate: 200px;}
+  from {translate: 100px;}
   
-  to{translate:-200px}
+  to{translate:-100px}
 }
 
 span {background-color:rgba(230, 176, 106, 0.411);
@@ -73,30 +73,29 @@ span {background-color:rgba(230, 176, 106, 0.411);
  .photo-gallery {
     background: rgb(224, 223, 192);
     padding: 60px;
-    width: 70%;
+    width: 90%;
     margin: auto;
-                
             }
 
 .photo {
-    width: 400px; 
+    width: 300px; 
     border-style: double;
     border-width: 10px;
-    transition:1s ease-out;
-    height: 400px;
+    transition:1s ease-in-out;
+    height: 300px;
     margin: 2%;
 
     animation-name: Crab;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
             }
 
-    .photo:hover {transform: rotate(720deg);}
+    .photo:hover{transform: rotate(3600deg);}
 
 div {background-color: rgba(250, 235, 215, 0.685);
-    width: 75%;
+    width: 90%;
 margin: auto;
 border-radius: 20px;}
 
